@@ -9,5 +9,5 @@
 
 $("#header_play").on('click', function()
 	{
-		$(".header__carousel .carousel").carousel({interval: 5000});
+		$(".header__carousel> .carousel").carousel({interval: 5000});
 	});
