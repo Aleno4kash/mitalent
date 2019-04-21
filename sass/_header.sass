@@ -1,0 +1,203 @@
+.header
+	.col-my
+		max-width: 85px
+		height: 35px
+	&__first-menu
+		position: absolute
+		button:focus 
+	    outline: none
+		z-index: 10
+		.navbar
+			padding: 8px 0px				
+		.nav-link
+			background-color: #fff
+		.dark-text
+			margin-bottom: 30px
+		.add-item
+			display: none
+	nav a
+		color: #000000
+		
+	nav a:hover
+		  cursor: pointer
+		  color: #7c7c7c
+	.navbar-toggler
+		padding: .25rem .05rem
+	.navbar-toggler.toggler-example
+	  cursor: pointer
+
+	&__second-menu
+		margin-top: 5px
+		li
+			padding-right: 55px
+			font-family: $font_nav
+			font-size: 15px
+			letter-spacing: 2px
+			text-transform: uppercase
+
+	.logo
+		margin-left: 80px
+		a
+			padding-top: 5px
+			margin-left: 25px
+
+	.search
+		float: right
+		margin-top: 13px
+		margin-right: -70px
+
+	&__social
+		margin-top: 140%
+		margin-left: 20px
+		float: left
+		.header__navline
+			float: left
+			padding-top: 145px
+		ul li
+			list-style-type: none
+			padding-bottom: 31px
+	&__text
+		position: absolute
+		z-index: 5
+		margin-left: calc(2% + 5px)
+		padding-top: 25%
+	&__line
+		max-width: 59px
+		min-width: 20px
+		height: 6px
+		background-color: #fff
+		position: relative
+		left: 92%
+		top: 22px
+	&__title
+		h1
+			font-size: 100px
+			line-height: 95px
+			letter-spacing: 4px
+		p 
+			padding-top: 63px
+			font-size: 19px
+			letter-spacing: 3px
+			text-transform: uppercase
+			font-family: $font_nav
+	.header__buttons
+		position: relative
+		left: -8.3%
+		margin-top: -6.5%
+		max-width: 375px
+		z-index: 10
+		.header__profile
+			background-color: #b4d3d3
+			left: 0
+			max-height: 110px
+			height: 5.7vw
+			border: none
+			max-width: 260px
+			width: 13.5vw
+			float: left
+			span	
+				cursor: pointer
+				color: #fff 
+				font-family: $font_nav 
+				text-transform: uppercase
+				letter-spacing: 3px
+				font-size: 13px
+				max-width: 90%
+				height: 90%
+				display: inline-block
+				word-wrap: break-word
+				overflow: hidden
+				text-overflow: ellipsis
+				padding: 16% 1%
+
+		.header__play
+			background-color: #fff
+			max-height: 110px	
+			height: 5.7vw
+			border: none
+			max-width: 110px
+			width: 6vw
+			cursor: pointer
+			a img 
+				width: 20%
+	.header__carousel
+		.carousel
+			position: relative
+			top: 0
+			z-index: 1
+			height: 80%
+		.carousel-inner
+			min-width: 300px
+			.header__play 
+				display: none
+		.carousel-item
+			padding-right: 50px
+		.carousel-indicators, .carousel-indicators2
+		  text-align: center
+		  list-style: none
+		  width: 200px
+
+		.carousel-indicators li, .carousel-indicators2 li
+		  text-indent: 0
+		  height: 30px
+		  vertical-align: middle
+		  border: none
+		  line-height: 30px
+		  color: #999
+		  transition: all 0.25s ease
+		  cursor: pointer
+		  display: block
+		  margin-bottom: 10px
+
+		.carousel-indicators
+		  position: absolute
+		  left: 65%  
+		  top: 85%
+		  display: table-cell
+		  padding-top: 30px
+
+		 
+		.carousel-indicators li
+			font-size: 13px
+		    letter-spacing: 3px
+			margin-bottom: 20px
+		.carousel-indicators li img
+		    display: none
+
+		.carousel-indicators li
+		  &.active, &:hover
+		    height: 30px
+		    color: #000000
+		.carousel-indicators li
+		  &.active img 
+		    	display: inline
+		    	margin-left: 125px
+		    	margin-top: -60px
+		.header__image
+			margin-top: 10.3%
+			margin-left: calc(7% + 10px)
+			display: block;
+			max-width: 1120px
+			width: 100%
+			height: auto
+
+	.carousel-indicators2
+	  padding-top: 269px
+	  margin-left: -14px
+	  float: left
+	  font-size: 18px
+	  letter-spacing: 2px
+	  z-index: 5
+	.carousel-indicators2 li
+	  display: none
+	  &.active
+	    display: block
+	    transform: rotate(-90deg)
+	    width: 400px
+
+	.carousel-indicators2 li
+	  &.active, &:hover
+	    width: 30px
+	    height: 30px
+	    color: #000000
+

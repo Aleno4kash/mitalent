@@ -1,0 +1,96 @@
+.talent
+	margin: 6% 3% 5% 4%
+	&__nav
+		padding-top: 1px 
+	&__nav ul li 
+		width: 125px
+		text-align: center
+
+	&__nav ul li a
+		color: #696970
+		text-transform: uppercase
+		text-decoration: none
+		font-size: 12px
+		font-family: $font_nav
+		letter-spacing: 3px
+		img 
+			display: none
+			padding-top: 12px
+			width: 140px
+			height: 14px
+			margin-left: -10px
+		&.active
+			img
+				display: table-cell
+
+#talent__more-4 ,#talent__more-3,#talent__more-2,#talent__more-1
+	display: none
+
+.talent__content
+		margin-top: 4.7%
+		max-width: 1680px	
+		.talent__rect:hover
+			background-color: #bad6d6
+			cursor: pointer
+			a
+				text-decoration: none
+			.talent__text, .arrow_img
+				display: block
+			.talent__img
+				display: none
+		.talent__img
+			width: 100%
+			height: auto
+		.talent__but
+			background: #b4d3d3
+			border-radius: 50px
+			outline: none
+			border: none
+			max-width: 220px
+			width: 70%
+			min-width: 120px
+			max-height: 60px
+			min-height: 30px
+			height: 3vw
+			margin-top: 3.8%
+			cursor: pointer
+			padding-top: 1%
+			span
+				color: #fff
+				font-size: 14px
+				font-weight: 600
+				letter-spacing: 3px
+				text-transform: uppercase
+				max-width: 90%
+				height: 90%
+				display: inline-block
+				word-wrap: break-word
+				overflow: hidden
+				text-overflow: ellipsis
+			
+
+.talent__rect 
+	position: relative
+.arrow_img
+	display: none
+	max-width: 3vw
+	height: auto
+	position: absolute
+	left: 82%
+	top: 5%
+.talent__text
+	position: absolute
+	top: 78%
+	left: 33%
+	display: none
+	z-index: 10
+	color: #fff
+	text-align: center
+	h5
+		font-size: 35px
+		font-weight: normal
+	p
+		font-size: 11px
+		font-family: "Poppins"
+		letter-spacing: 2px
+		text-transform: uppercase
